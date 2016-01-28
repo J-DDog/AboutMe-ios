@@ -13,7 +13,7 @@ class CampViewController: ViewController
     
     @IBAction func returnFromCamp(sender: UIButton)
     {
-        
+        performSegueWithIdentifier("backCamp", sender: sender)
     }
     
 }

@@ -79,7 +79,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.97678430924469817" green="1" blue="0.45113261116558312" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="il7-5J-xXe" firstAttribute="top" secondItem="ZPw-Z2-b9R" secondAttribute="bottom" constant="60" id="0P8-sq-itW"/>
                             <constraint firstItem="ZPw-Z2-b9R" firstAttribute="top" secondItem="aaV-14-07z" secondAttribute="bottom" constant="53" id="22b-mf-2tY"/>
@@ -134,13 +134,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="School" translatesAutoresizingMaskIntoConstraints="NO" id="lJk-ud-1D7">
                                 <rect key="frame" x="87" y="118" width="240" height="192"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-FD-BbX">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EKd-FD-BbX">
                                 <rect key="frame" x="87" y="315" width="240" height="105"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="105" id="b4o-Z4-d43"/>
                                 </constraints>
-                                <string key="text"> I Don't necessarily like school. But it’s better than doing nothing all summer.</string>
+                                <string key="text">
+I Don't necessarily like school. But it’s better than doing nothing all summer.
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -179,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqj-rr-Z3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="770" y="-10"/>
+            <point key="canvasLocation" x="552" y="-297"/>
         </scene>
         <!--Game View Controller-->
         <scene sceneID="CtN-1H-7Of">
@@ -209,21 +211,21 @@
                                     <action selector="returnFromGame:" destination="ewg-5f-3Vd" eventType="touchUpInside" id="K6B-Tk-Qnn"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nc4-4A-hTZ">
-                                <rect key="frame" x="87" y="307" width="240" height="121"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">I Love Games, And always have. They have shaped my life. They have shaped my intrests. They Showed me technology That I love now.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game" translatesAutoresizingMaskIntoConstraints="NO" id="KXB-we-z4q">
                                 <rect key="frame" x="87" y="95" width="240" height="216"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="In2-nl-2MZ"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nc4-4A-hTZ">
+                                <rect key="frame" x="87" y="319" width="240" height="121"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I Love Games, And always have. They have shaped my life. They have shaped my intrests. They Showed me technology That I love now.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="chs-Wm-OEB" firstAttribute="top" secondItem="j1B-jX-nwl" secondAttribute="bottom" id="1p5-im-HtB"/>
                             <constraint firstItem="KXB-we-z4q" firstAttribute="top" secondItem="hxf-lb-3cH" secondAttribute="bottom" constant="16" id="3gU-W0-hkH"/>
@@ -231,11 +233,11 @@
                             <constraint firstItem="Nc4-4A-hTZ" firstAttribute="trailing" secondItem="KXB-we-z4q" secondAttribute="trailing" id="78F-OY-hao"/>
                             <constraint firstItem="chs-Wm-OEB" firstAttribute="trailing" secondItem="asc-45-fXl" secondAttribute="trailingMargin" id="HPZ-6F-yqp"/>
                             <constraint firstItem="WWL-hy-ZmN" firstAttribute="top" secondItem="KXB-we-z4q" secondAttribute="bottom" constant="425" id="MQl-WE-Ndl"/>
-                            <constraint firstItem="WWL-hy-ZmN" firstAttribute="top" secondItem="Nc4-4A-hTZ" secondAttribute="bottom" constant="308" id="RqX-Ic-Tnn"/>
+                            <constraint firstItem="WWL-hy-ZmN" firstAttribute="top" secondItem="Nc4-4A-hTZ" secondAttribute="bottom" constant="296" id="RqX-Ic-Tnn"/>
                             <constraint firstItem="chs-Wm-OEB" firstAttribute="leading" secondItem="asc-45-fXl" secondAttribute="leadingMargin" id="aRm-Od-D3K"/>
                             <constraint firstItem="KXB-we-z4q" firstAttribute="centerX" secondItem="hxf-lb-3cH" secondAttribute="centerX" constant="145" id="bFR-w7-0Yq"/>
                             <constraint firstItem="Nc4-4A-hTZ" firstAttribute="leading" secondItem="KXB-we-z4q" secondAttribute="leading" id="bPk-yD-jcT"/>
-                            <constraint firstItem="Nc4-4A-hTZ" firstAttribute="centerY" secondItem="asc-45-fXl" secondAttribute="centerY" id="kCC-Bz-fbm"/>
+                            <constraint firstItem="Nc4-4A-hTZ" firstAttribute="centerY" secondItem="asc-45-fXl" secondAttribute="centerY" constant="11.5" id="kCC-Bz-fbm"/>
                             <constraint firstItem="hxf-lb-3cH" firstAttribute="centerY" secondItem="asc-45-fXl" secondAttribute="centerY" constant="-304" id="zln-Sd-YVE"/>
                         </constraints>
                     </view>
@@ -245,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DqL-5l-YEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-271" y="956"/>
+            <point key="canvasLocation" x="-387" y="-116"/>
         </scene>
         <!--Camp View Controller-->
         <scene sceneID="oi3-V1-B3p">
@@ -259,13 +261,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JDR-3K-3yg">
-                                <rect key="frame" x="88" y="236" width="240" height="264"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">I Love Camping. I've done it since I was little. It gives me the chance to be closer to nature. Away from my schooling and technology.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Camp" translatesAutoresizingMaskIntoConstraints="NO" id="3uc-FM-SMg">
                                 <rect key="frame" x="88" y="83" width="240" height="152"/>
                                 <constraints>
@@ -288,8 +283,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JDR-3K-3yg">
+                                <rect key="frame" x="88" y="253" width="240" height="97"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I Love Camping. I've done it since I was little. It gives me the chance to be closer to nature. Away from my schooling and technology.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.36214088684278917" green="0.082981064313277897" blue="0.71279242318435754" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JDR-3K-3yg" firstAttribute="trailing" secondItem="3uc-FM-SMg" secondAttribute="trailing" id="4Qp-eQ-hPF"/>
                             <constraint firstItem="YMe-cI-EM0" firstAttribute="centerX" secondItem="3uc-FM-SMg" secondAttribute="centerX" constant="-1" id="FRZ-SU-wEg"/>
@@ -297,10 +299,10 @@
                             <constraint firstItem="JDR-3K-3yg" firstAttribute="centerX" secondItem="hkH-yz-MZH" secondAttribute="centerX" constant="1" id="M55-Bt-yV4"/>
                             <constraint firstItem="3uc-FM-SMg" firstAttribute="leading" secondItem="JDR-3K-3yg" secondAttribute="leading" id="Vbe-ol-zJD"/>
                             <constraint firstItem="3uc-FM-SMg" firstAttribute="top" secondItem="YMe-cI-EM0" secondAttribute="bottom" constant="42" id="WtX-eC-4q6"/>
-                            <constraint firstItem="w6h-tp-xxD" firstAttribute="top" secondItem="JDR-3K-3yg" secondAttribute="bottom" constant="236" id="f5O-4P-lCZ"/>
-                            <constraint firstItem="JDR-3K-3yg" firstAttribute="top" secondItem="3uc-FM-SMg" secondAttribute="bottom" constant="1" id="fCL-ID-DNc"/>
+                            <constraint firstItem="w6h-tp-xxD" firstAttribute="top" secondItem="JDR-3K-3yg" secondAttribute="bottom" constant="386" id="f5O-4P-lCZ"/>
+                            <constraint firstItem="JDR-3K-3yg" firstAttribute="top" secondItem="3uc-FM-SMg" secondAttribute="bottom" constant="18" id="fCL-ID-DNc"/>
                             <constraint firstItem="B8n-Zd-4Cx" firstAttribute="leading" secondItem="hkH-yz-MZH" secondAttribute="leadingMargin" constant="14" id="oB1-cG-4J1"/>
-                            <constraint firstItem="JDR-3K-3yg" firstAttribute="centerY" secondItem="hkH-yz-MZH" secondAttribute="centerY" id="pnw-0s-d8t"/>
+                            <constraint firstItem="JDR-3K-3yg" firstAttribute="centerY" secondItem="hkH-yz-MZH" secondAttribute="centerY" constant="-66.5" id="pnw-0s-d8t"/>
                             <constraint firstItem="YMe-cI-EM0" firstAttribute="leading" secondItem="B8n-Zd-4Cx" secondAttribute="trailing" constant="54" id="s8a-ck-vYn"/>
                             <constraint firstItem="B8n-Zd-4Cx" firstAttribute="top" secondItem="WVj-gP-sPS" secondAttribute="bottom" constant="8" symbolic="YES" id="sTb-7e-hxm"/>
                         </constraints>
@@ -311,7 +313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yu4-zz-M7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1266" y="1658"/>
+            <point key="canvasLocation" x="381" y="605"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="O1a-H0-UjJ">
@@ -350,27 +352,27 @@
                                     <action selector="returnFromFood:" destination="SeC-mB-g3z" eventType="touchUpInside" id="eGF-5l-0Ng"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="I love Food. I eat it every day. It helps me keep going. It empowers me to live my life and to change my life." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bTV-sM-zDB">
-                                <rect key="frame" x="68" y="236" width="240" height="264"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="I love Food. I eat it every day. It helps me keep going. It empowers me to live my life and to change my life." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bTV-sM-zDB">
+                                <rect key="frame" x="68" y="255" width="240" height="96"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.69899245712113567" blue="0.34530339245698671" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="tdi-Ks-cQe" firstAttribute="top" secondItem="g5v-o8-gwN" secondAttribute="bottom" constant="8" symbolic="YES" id="0ad-H4-ble"/>
                             <constraint firstItem="lgC-We-tqz" firstAttribute="leading" secondItem="bTV-sM-zDB" secondAttribute="leading" id="28J-LH-0fm"/>
                             <constraint firstItem="lgC-We-tqz" firstAttribute="top" secondItem="9BE-NI-0OS" secondAttribute="bottom" constant="44" id="2I7-Sw-ZnC"/>
-                            <constraint firstItem="5sP-Yo-GKl" firstAttribute="top" secondItem="bTV-sM-zDB" secondAttribute="bottom" constant="236" id="5Qy-Hb-NvO"/>
+                            <constraint firstItem="5sP-Yo-GKl" firstAttribute="top" secondItem="bTV-sM-zDB" secondAttribute="bottom" constant="385" id="5Qy-Hb-NvO"/>
                             <constraint firstItem="lgC-We-tqz" firstAttribute="trailing" secondItem="bTV-sM-zDB" secondAttribute="trailing" id="9Vn-lk-mIX"/>
-                            <constraint firstItem="bTV-sM-zDB" firstAttribute="centerY" secondItem="loq-yg-iJf" secondAttribute="centerY" id="NAF-oi-TUB"/>
+                            <constraint firstItem="bTV-sM-zDB" firstAttribute="centerY" secondItem="loq-yg-iJf" secondAttribute="centerY" constant="-65" id="NAF-oi-TUB"/>
                             <constraint firstItem="9BE-NI-0OS" firstAttribute="centerX" secondItem="lgC-We-tqz" secondAttribute="centerX" id="Q9l-P1-vDy"/>
                             <constraint firstItem="9BE-NI-0OS" firstAttribute="leading" secondItem="tdi-Ks-cQe" secondAttribute="trailing" constant="46" id="U5V-d1-v2p"/>
                             <constraint firstItem="9BE-NI-0OS" firstAttribute="top" secondItem="g5v-o8-gwN" secondAttribute="bottom" id="kdB-zg-Lyh"/>
                             <constraint firstItem="lgC-We-tqz" firstAttribute="top" secondItem="tdi-Ks-cQe" secondAttribute="bottom" constant="27" id="oAE-pf-s67"/>
                             <constraint firstItem="9BE-NI-0OS" firstAttribute="centerX" secondItem="loq-yg-iJf" secondAttribute="centerX" constant="-18.5" id="oiD-co-VER"/>
-                            <constraint firstItem="bTV-sM-zDB" firstAttribute="top" secondItem="lgC-We-tqz" secondAttribute="bottom" id="ruQ-Yf-e0B"/>
+                            <constraint firstItem="bTV-sM-zDB" firstAttribute="top" secondItem="lgC-We-tqz" secondAttribute="bottom" constant="19" id="ruQ-Yf-e0B"/>
                         </constraints>
                     </view>
                     <connections>
@@ -379,7 +381,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MAg-Ch-JKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="451" y="1431"/>
+            <point key="canvasLocation" x="-89" y="675"/>
         </scene>
         <!--Code View Controller-->
         <scene sceneID="lne-sG-6HO">
@@ -399,6 +401,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="lu7-7O-4on">
+                                <rect key="frame" x="88" y="108" width="240" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="sLK-ui-JJ2"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rhV-o8-FZt">
+                                <rect key="frame" x="88" y="318" width="240" height="99"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I Love Programming and plan to use it in my future. It uses my favorite thing, logic. It gives. me the power to make the computer do what I want.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nxf-l5-di4">
                                 <rect key="frame" x="52" y="49" width="50" height="30"/>
                                 <constraints>
@@ -409,21 +424,8 @@
                                     <action selector="returnFromCode:" destination="q1c-Dc-4zg" eventType="touchUpInside" id="fcv-m4-E4M"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="lu7-7O-4on">
-                                <rect key="frame" x="88" y="108" width="240" height="192"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="sLK-ui-JJ2"/>
-                                </constraints>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rhV-o8-FZt">
-                                <rect key="frame" x="88" y="318" width="240" height="99"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">I Love Programming and plan to use it in my future. It uses my favorite thing, logic. It gives. me the power to make the computer do what I want.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.68640886871508378" blue="0.25066767698214998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="rhV-o8-FZt" firstAttribute="leading" secondItem="lu7-7O-4on" secondAttribute="leading" id="ERg-ly-sdg"/>
                             <constraint firstItem="O9E-oc-u1U" firstAttribute="leading" secondItem="KQD-Uj-YLg" secondAttribute="leadingMargin" id="Ea1-cz-1FB"/>
@@ -445,7 +447,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cet-2y-Dc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1007" y="761"/>
+            <point key="canvasLocation" x="867" y="525"/>
         </scene>
     </scenes>
     <resources>
@@ -456,6 +458,6 @@
         <image name="School" width="975" height="650"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pEW-3d-S3X"/>
+        <segue reference="2G4-lq-VEo"/>
     </inferredMetricsTieBreakers>
 </document>
